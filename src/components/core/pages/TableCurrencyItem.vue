@@ -72,6 +72,7 @@ export default {
   display: flex;
   flex-direction: row;
   padding-left: var(--app-main-left-gap);
+  padding-right: var(--app-main-left-gap);
 
   &:hover {
     background-color: var(--app-main-item-bg-hover);
@@ -91,7 +92,9 @@ export default {
   }
 
   .item-favorite {
+    display: flex;
     flex: 1;
+    justify-content: flex-end;
   }
 
   .item-favorite > svg {
@@ -100,7 +103,7 @@ export default {
 
   > div {
     box-sizing: border-box;
-    padding: 10px 10px;
+    padding: 10px 0;
 
   }
 

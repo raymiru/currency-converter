@@ -53,6 +53,7 @@ export default {
 
 .currencies-table-header {
   padding-left: var(--app-main-left-gap);
+  padding-right: var(--app-main-left-gap);
   background-color: #2c2c2c;
   color: white;
   display: flex;
@@ -71,11 +72,13 @@ export default {
   }
 
   .table-favorite-title {
+    display: flex;
+    justify-content: flex-end;
     flex: 1;
   }
 
   > div {
-    padding: 10px 10px;
+    padding: 10px 0;
     box-sizing: border-box;
 
   }
